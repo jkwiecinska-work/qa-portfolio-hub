@@ -15,7 +15,7 @@ My primary repository for Playwright with TypeScript. This is where I build test
 ### 📡 API Testing: Postman & CI
 Automated REST API test collections created in Postman and integrated with GitHub Actions CI pipelines.  
 👉 [View Repository](https://github.com/jkwiecinska-work/api-postman)
-### 📄 QA Process & Strategy Examples *(Work in progress)*
+### 📄 QA Process & Strategy Examples
 Practical, down-to-earth examples of test strategies, risk checklists, and guides on organizing testing in a team.  
 👉 [Explore Docs](./docs/)
 
