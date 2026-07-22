@@ -201,7 +201,8 @@ Before any release is deployed to Production, ALL of the following criteria must
 ## ✨ Final Thought
 Having a clear Test Strategy gives the whole team a shared understanding of quality. It doesn't need to be a heavy 50-page document that nobody reads — keep it living, practical, and clear.
 
-🤝 Contributions & Feedback
+
+## 🤝 Contributions & Feedback
 What would you adjust in this framework for your current project?
 
 If you have feedback, improvements, or suggestions, feel free to open an Issue or submit a Pull Request. Let's make quality testing easier for everyone!
