@@ -1,7 +1,6 @@
 # 📋 Test Strategy Guide & Template
 > **💡 Quick Tip Before You Start:**  
 > Always check first if your company or team already has their own internal QA templates, guidelines, or standards. If they do, start there! If not, or if you want to improve what you currently have, use this guide as a solid starting point.
-
 ---
 
 ## 🚀 Two Ways to Use This Guide: Creating vs. Improving a Strategy
@@ -43,7 +42,7 @@ It's easy to confuse them, but they serve two very different purposes in a team:
   
 > 💡 **In short**: Your **Test Strategy** sets the static rules of quality for the whole project (co-created with Dev & Product). Your **Test Plan** is the practical execution of those rules for a specific sprint or release.
 ---
-## 📚 Standards We Learn From (Without the Fluff)
+## 📚 Key Standards
 You don't need to memorize international standards to write a great strategy, but it's super helpful to know where good practices come from and why they matter:
 - **ISO/IEC/IEEE 29119**: Gives us a logical structure for testing so we don't forget important process steps.
 - **ISO/IEC 25010**: Reminds us that quality isn't just "does the button work?", but also performance efficiency, security, usability, and stability.
