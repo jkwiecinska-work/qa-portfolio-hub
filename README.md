@@ -7,29 +7,23 @@ As a QA Software Engineer, I believe in a complete, well-rounded approach to qua
 
 ---
 
-## 📌 Projects & Materials
-### 🎭 E2E Automation: Playwright & TypeScript
+## Projects & Materials
+### E2E Automation: Playwright & TypeScript
 My primary repository for Playwright with TypeScript. This is where I build test frameworks, explore new capabilities, and experiment with AI tools in testing workflows.  
 *(I've also had the opportunity to work with Playwright/Python, Selenium/Python, and Selenium/C#)*.  
-👉 [View Repository](https://github.com/jkwiecinska-work/playwright-typescript)
-### 📡 API Testing: Postman & CI
+-> [View Repository](https://github.com/jkwiecinska-work/playwright-typescript)
+### API Testing: Postman & CI
 Automated REST API test collections created in Postman and integrated with GitHub Actions CI pipelines.  
-👉 [View Repository](https://github.com/jkwiecinska-work/api-postman)
-### 📄 QA Process & Strategy Examples
+-> [View Repository](https://github.com/jkwiecinska-work/api-postman)
+### QA Process & Strategy Examples
 Practical, down-to-earth examples of test strategies, risk checklists, and guides on organizing testing in a team.  
-👉 [Explore Docs](./docs/)
-
----
-## 💡 My QA Mindset
-> *"Great QA isn't just about breaking things — it's about understanding the product so well that you know exactly where and why it might break."*
----
+-> [Explore Docs](./docs/)
 
 ## 📞 Connect
 
-- [💼 **LinkedIn**](https://www.linkedin.com/in/justyna-kwiecinska/)
-- [📧 **Email**](mailto:jkwiecinska.work@gmail.com)
-- [🔧 **Main GitHub**](https://github.com/jkwiecinska-work/)
+- [**LinkedIn**](https://www.linkedin.com/in/justyna-kwiecinska/)
+- [**Email**](mailto:jkwiecinska.work@gmail.com)
+- [**Main GitHub**](https://github.com/jkwiecinska-work/)
 
 ---
 
-**⭐ If you appreciate thoughtful QA approaches, drop a star!**
