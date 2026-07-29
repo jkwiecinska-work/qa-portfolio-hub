@@ -15,9 +15,9 @@ My primary repository for Playwright with TypeScript. This is where I build test
 ### API Testing: Postman & CI
 Automated REST API test collections created in Postman and integrated with GitHub Actions CI pipelines.  
 -> [View Repository](https://github.com/jkwiecinska-work/api-postman)
-### Accessibility (A11y) Cheatsheet & WCAG Auditing
-Practical guide covering WCAG 2.1 AA checklist, keyboard & screen reader shortcuts (NVDA, VoiceOver), and automated audit tools (Lighthouse, axe DevTools, Pa11y, WAVE).  
--> [Read A11y Cheatsheet](docs/web-accessibility-cheatsheet.md)
+### Accessibility (A11y) Cheatsheet & Automation Frameworks
+Practical guides covering WCAG 2.1 AA checklist, keyboard & screen reader shortcuts (NVDA, VoiceOver), automated audit tools (Lighthouse, axe DevTools, Pa11y, WAVE), and code examples for automation frameworks (Playwright, Cypress, Jest, Selenium).  
+-> [Read A11y Cheatsheet](docs/web-accessibility-cheatsheet.md) | [View A11y Automation Frameworks Guide](docs/web-accessibility-automation-frameworks.md)
 ### QA Process & Strategy Examples
 Practical, down-to-earth examples of test strategies, risk checklists, and guides on organizing testing in a team.  
 -> [Explore Docs](./docs/)

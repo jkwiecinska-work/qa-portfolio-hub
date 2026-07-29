@@ -100,10 +100,13 @@ These are the core accessibility checks to keep an eye on. Most of them can be s
   5. Click **Analyze page load**.
   6. Click the top-right `⋮` menu in the audit result to **Save as HTML** or **Save as JSON**.
 * **Expected Output:** An interactive HTML report featuring an overall Accessibility score, list of failed audits, impacted CSS selectors, and links to Google web.dev guides.
+* **Example Report:**  
+  ![Chrome Lighthouse accessibility report panel showing an Accessibility score of 66 out of 100 on Accessible University sample page, listing failed audits for missing image alt attributes, unlabelled form elements, and low background-foreground contrast.](../assets/a11y-lighthouse-report.png)  
+  *Figure 1: Chrome Lighthouse accessibility audit result.*
 
 ---
 
-### 2. Axe DevTools (Browser Extension)
+### 2. axe DevTools (Browser Extension)
 * **Description:** Industry-standard accessibility testing engine developed by Deque Systems.
 * **Capabilities:** Highly reliable scanner with zero false-positives. Tests dynamic page states, modals, popups, and shadow DOM.
 * **How to Generate a Report:**
@@ -113,6 +116,9 @@ These are the core accessibility checks to keep an eye on. Most of them can be s
   4. Click **Scan ALL of my page** (or scan specific component containers).
   5. Review identified issues categorized by severity (*Critical*, *Serious*, *Moderate*, *Minor*).
 * **Expected Output:** A structured breakdown of violations identifying exact DOM elements, specific WCAG criteria failures, and precise code remediation recommendations.
+* **Example Report:**  
+  ![axe DevTools accessibility scanner panel showing 20 total issues (12 critical, 8 serious) on Accessible University sample page, highlighting a WCAG 2.1 AA color contrast violation on a navigation link element.](../assets/a11y-axe-devtools-report.png)  
+  *Figure 2: axe DevTools extension panel showing scan report. Result is for free extension version.*
 
 ---
 
@@ -130,6 +136,31 @@ These are the core accessibility checks to keep an eye on. Most of them can be s
      npx pa11y https://your-website.com --reporter json > docs/a11y-report.json
      ```
 * **Expected Output:** A standalone HTML or JSON report documenting errors, warnings, notices, CSS selectors, and corresponding WCAG guideline numbers.
+* **Example Report (Terminal Output):**  
+  ```text
+  Welcome to Pa11y 8.0.0
+
+   > Running Pa11y on URL: https://projects.accesscomputing.uw.edu/au/before.html
+
+  Results for https://projects.accesscomputing.uw.edu/au/before.html:
+
+   • Error: Img element missing an alt attribute.
+     ├── Code: WCAG2AA.Principle1.Guideline1_1.1_1_1.H37
+     ├── Selector: html > body > div#page > div#main > img.carousel-img
+     └── Context: <img src="images/carousel1.jpg" class="carousel-img">
+
+   • Error: Form control does not have a label.
+     ├── Code: WCAG2AA.Principle1.Guideline1_3.1_3_1.F68
+     ├── Selector: #form-email
+     └── Context: <input type="text" id="form-email" name="email">
+
+   • Error: This element has insufficient contrast at this size.
+     ├── Code: WCAG2AA.Principle1.Guideline1_4.1_4_3.G18.Fail
+     ├── Selector: #nav > ul > li:nth-child(1) > a
+     └── Context: <a href="#">About</a>
+
+  3 Errors Found
+  ```
 
 ---
 
@@ -142,3 +173,18 @@ These are the core accessibility checks to keep an eye on. Most of them can be s
   3. Review the left sidebar summary showing **Errors**, **Contrast Errors**, **Alerts**, and **Features**.
   4. Click **Print/Export** in the WAVE sidebar to generate a PDF or printable report.
 * **Expected Output:** A visually annotated web page with color-coded overlays indicating accessible vs. inaccessible elements, paired with a print-ready summary report.
+* **Example Report:**  
+  ![WAVE accessibility tool interface showing 16 errors, 4 contrast errors, and 11 alerts on Accessible University sample page, overlaying visual indicator icons directly onto page elements.](../assets/a11y-wave-report.png)  
+  *Figure 3: WAVE accessibility evaluation tool interface - no tool installation for this example, used ony https://wave.webaim.org/ web page*
+
+### Tool Summary
+**For a quick initial accessibility sanity check, any of these tools will do a fantastic job.** They all quickly flag common accessibility issues like missing `alt` text, poor color contrast, or unlabelled form inputs in seconds.  
+Choosing the best fit for your day-to-day QA testing depends on your specific project needs.  
+
+> **Automated tools are an awesome starting point**, but they typically catch only **20%–40%** of WCAG violations. For a complete audit, there is a need to always pair automated scans with **manual testing** — navigating through the page using keyboard (`Tab`, `Shift+Tab`, `Enter`) and testing with a screen reader.
+
+### Automated Accessibility Test Frameworks
+
+For example code snippets for integrating automated accessibility audits into test automation frameworks (Playwright, Cypress, Jest/Vitest, Selenium), check out dedicated guide:
+
+-> [**Automated Accessibility Test Frameworks Guide**](web-accessibility-automation-frameworks.md)
