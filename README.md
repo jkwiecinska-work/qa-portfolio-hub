@@ -16,7 +16,7 @@ My primary repository for Playwright with TypeScript. This is where I build test
 Automated REST API test collections created in Postman and integrated with GitHub Actions CI pipelines.  
 -> [View Repository](https://github.com/jkwiecinska-work/api-postman)
 ### Accessibility (A11y) Cheatsheet & WCAG Auditing
-Practical guide covering WCAG 2.1 AA checklist, keyboard & screen reader shortcuts (NVDA, VoiceOver), and automated audit tools (Lighthouse, axe DevTools, Pa11y, WAVE).
+Practical guide covering WCAG 2.1 AA checklist, keyboard & screen reader shortcuts (NVDA, VoiceOver), and automated audit tools (Lighthouse, axe DevTools, Pa11y, WAVE).  
 -> [Read A11y Cheatsheet](docs/web-accessibility-cheatsheet.md)
 ### QA Process & Strategy Examples
 Practical, down-to-earth examples of test strategies, risk checklists, and guides on organizing testing in a team.  
